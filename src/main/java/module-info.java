@@ -7,4 +7,6 @@ module com.example.studentmanager {
     opens loose.oose.fis.lab.student.manager.model to javafx.base;
     opens loose.oose.fis.lab.student.manager.controllers to javafx.fxml;
     exports loose.oose.fis.lab.student.manager;
+    exports loose.oose.fis.lab.student.manager.controllers;
+
 }
